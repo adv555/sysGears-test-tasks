@@ -1,0 +1,48 @@
+<!-- Currency Converter -->
+<h1 class="heading text-h4 text-center my-5">Length Converter</h1>
+
+<!-- <div class="container"> -->
+<div class="m-auto p-4">
+  <div class="flex justify-between mb-4 px-4">
+    <label for="amount" class="mb-2 text-gray-700"> Amount to Convert : </label>
+    <input
+      type="text "
+      class="form-input px-4 py-1 rounded-lg border-2 w-3/4"
+      placeholder="0.00"
+      id="amount"
+    />
+  </div>
+  <div class="flex col-span-2">
+    <div class="mb-5 w-1/2 flex-col items-center p-4">
+      <label for="from" class="block mb-2 text-gray-700">From</label>
+
+      <select class="form-select px-4 py-1 rounded-lg border-2 w-full capitalize" id="from">
+        <option value="">Select One …</option>
+        <!-- add options here -->
+      </select>
+    </div>
+    <div class="mb-3 w-1/2 flex-col items-center p-4">
+      <label for="to" class="block mb-2 text-gray-700">To</label>
+      <select class="form-select px-4 py-1 rounded-lg border-2 w-full capitalize" id="to">
+        <option class="" value="">Select One …</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="text-center text-blue-900">
+    <!-- convert button -->
+    <button class="btn-primary" type="submit">Convert</button>
+
+    <!-- reset button -->
+    <button class="btn-secondary" onclick="clearVal()">Reset</button>
+  </div>
+</div>
+
+<div id="finalAmount" class="text-center text-blue-900">
+  <!-- Display the converted amount -->
+  <h4 class="text-h4 italic font-Lobster">
+    Converted Amount :
+    <span class="finalValue" style="color: green"> </span>
+  </h4>
+</div>
+<!-- </div> -->

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+  @apply text-gray-300 hover:bg-gray-700 hover:text-white;
+}
+.link-active {
+  @apply bg-gray-900 text-white;
+}
+
+.btn-primary {
+  @apply inline-block px-6 py-2.5 w-40 bg-blue-800 text-white font-medium text-xs leading-tight uppercase rounded shadow-lg hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 transition duration-150 ease-in-out;
+}
+.btn-secondary {
+  @apply inline-block px-6 py-2.5 w-40 bg-purple-800 text-white font-medium text-xs leading-tight uppercase rounded shadow-lg hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 transition duration-150 ease-in-out;
+}
+
+.heading {
+  font-family: 'Pacifico', cursive;
+}
+
+#finalAmount {
+  font-family: 'Lobster', cursive;
+}
+
+.finalValue {
+  font-family: 'Amiri', serif;
+}
