@@ -21,16 +21,24 @@
     
     <main>
       <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+        <header class="bg-white shadow">
+          <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+            <!-- active page title -->
+             <h1 class="page-title text-3xl font-bold text-gray-900">Dashboard</h1>
+          </div>
+        </header>
 
-        <include src="./partials/title.html"></include>
-
+       
         <div class="px-4 py-6 sm:px-0">
-          <div class="border-4 border-dashed border-gray-200 rounded-lg h-96">
-           
-            <include src="./partials/example.html"></include>
-            <include src="./partials/converter.html"></include>
-             <!-- <include src="./partials/dashboard.html"></include> -->
-             
+          <div id="pages"  class="border-4 border-dashed border-gray-200 rounded-lg h-96">
+        
+           <!-- changing page content from navigation -->
+           <include src="./partials/dashboard.html"></include>
+           <include src="./partials/converter.html"></include>
+           <include src="./partials/sorting.html"></include>
+           <include src="./partials/questionnaire.html"></include>
+           <include src="./partials/algorithm.html"></include>
+            
             </div>
           </div>
         </div>
