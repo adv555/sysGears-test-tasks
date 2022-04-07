@@ -1,0 +1,14 @@
+<tr class='bg-white border-b dark:bg-gray-800 dark:border-gray-700'>
+  <th scope='row' class='px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap'>
+    {{name}}
+  </th>
+  <td class='px-6 py-4'>{{email}}</td>
+  <td class='px-6 py-4'>{{rating}}</td>
+  <td class='px-6 py-4 text-center'>
+    {{#if disabled}}
+      <input type='checkbox' class='form-checkbox rounded text-pink-500' checked />
+    {{else}}
+      <input type='checkbox' class='form-checkbox rounded text-pink-500' />
+    {{/if}}
+  </td>
+</tr>

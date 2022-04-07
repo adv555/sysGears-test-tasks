@@ -15,9 +15,9 @@ const data = [
     title: 'Converter',
   },
   {
-    id: 'sorting',
-    path: '/sorting',
-    title: 'Sorting',
+    id: 'filter',
+    path: '/filter',
+    title: 'Filter',
   },
   {
     id: 'questionnaire',

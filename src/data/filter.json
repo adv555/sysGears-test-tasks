@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "user": "mike@mail.com",
+      "name": "John",
+      "email": "john2@mail.com",
+      "rating": 15,
+      "disabled": true
+    },
+    {
+      "user": "mike@mail.com",
+      "name": "John",
+      "email": "john1@mail.com",
+      "rating": 5,
+      "disabled": true
+    },
+    {
+      "user": "mike@mail.com",
+      "name": "Jane2",
+      "email": "jane2@mail.com",
+      "rating": 125,
+      "disabled": true
+    },
+    {
+      "user": "mike@mail.com",
+      "name": "Peter",
+      "email": "peter@mail.com",
+      "rating": 20,
+      "disabled": false
+    },
+    {
+      "user": "greg@mail.com",
+      "name": "Colin",
+      "email": "colin@mail.com",
+      "rating": 14,
+      "disabled": false
+    },
+    {
+      "user": "john@mail.com",
+      "name": "Jane",
+      "email": "jane@mail.com",
+      "rating": 25,
+      "disabled": true
+    }
+  ],
+  "condition": {},
+  "filters": {
+    "category": ["User", "Email", "Rating", "Status"],
+    "status": ["Disabled", "Active"],
+    "rating": ["High", "Low"]
+  }
+}

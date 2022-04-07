@@ -16,6 +16,10 @@
   @apply inline-block px-6 py-2.5 w-40 bg-purple-800 text-white font-medium text-xs leading-tight uppercase rounded shadow-lg hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 transition duration-150 ease-in-out;
 }
 
+.filter {
+  @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 2xl:bg-gray-700 2xl:border-gray-600 2xl:placeholder-gray-400 2xl:text-white 2xl:focus:ring-blue-500 2xl:focus:border-blue-500;
+}
+
 .heading {
   font-family: 'Pacifico', cursive;
 }

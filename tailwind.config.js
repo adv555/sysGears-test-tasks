@@ -39,5 +39,12 @@ module.exports = {
       },
     },
   },
-  plugins: [require('tailwindcss'), require('autoprefixer'), require('@tailwindcss/forms')],
+  plugins: [
+    require('tailwindcss'),
+    require('autoprefixer'),
+    require('@tailwindcss/forms')({
+      // strategy: 'base', // only generate global styles
+      strategy: 'class', // only generate classes
+    }),
+  ],
 };
